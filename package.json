@@ -1,11 +1,14 @@
 {
-  "name": "node",
+  "name": "estudos",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fist programing in node.js ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "nodemon index.js"
   },
-  "author": "Isabel Yasmin",
-  "license": "ISC"
+  "author": "Isabel Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
